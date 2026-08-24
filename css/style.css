@@ -1,5 +1,22 @@
+body {
+    background-color: #e6e6e6;
+}
 #header {
     background-color: #f2f2f2;
     text-align: center;
     padding: 20px;
+    border: black 1px solid;
 }
+nav-bar {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    border: black 1px solid;
+}
+h1, h2 {
+    font-family:'Courier New', Courier, monospace;
+}
+.text {
+    font-family:'Franklin Gothic Medium', Arial, sans-serif
+}
+
