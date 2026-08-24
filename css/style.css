@@ -1,3 +1,13 @@
+.twinkle-star-regular {
+  font-family: "Twinkle Star", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.gladly-mailed-regular{
+    font-family: "gladly-mailed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 body {
     background-color: #e6e6e6;
 }
@@ -8,7 +18,10 @@ body {
     border: black 1px solid;
     border-radius: 10px;
 }
-h1, h2 {
+h1 {
+    font-family:'gladly-mailed', cursive;
+}
+h2 {
     font-family:'Courier New', Courier, monospace;
 }
 h1:hover, h2:hover {
@@ -17,5 +30,3 @@ h1:hover, h2:hover {
 .text {
     font-family:'Franklin Gothic Medium', Arial, sans-serif
 }
-
-
