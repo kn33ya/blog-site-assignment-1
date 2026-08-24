@@ -8,6 +8,10 @@
     font-weight: 400;
     font-style: normal;
 }
+.scatterplot-vf {
+    font-family: "scatterplot-vf", sans-serif;
+    font-variation-settings: "RAND" 0, "wght" 300;
+}
 body {
     background-color: #e6e6e6;
 }
@@ -23,6 +27,9 @@ h1 {
 }
 h2 {
     font-family:'Courier New', Courier, monospace;
+}
+p { /*fix this later to be more specific*/
+    font-family:"scatterplot-vf", sans-serif;
 }
 h1:hover, h2:hover {
     color:blueviolet;
