@@ -22,7 +22,6 @@ body {
     justify-content: center;
 }
 #nav-bar {
-    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
