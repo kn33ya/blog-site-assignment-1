@@ -26,6 +26,20 @@ body {
     align-items: center;
     justify-content: center;
 }
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: #d22f85;
+    --bs-nav-link-hover-color: #9e1313;
+    --bs-nav-link-disabled-color: rgb(28 32 36 / 75%);
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
 .navi {
     display: inline-block;
     padding: 1px 5px 2px;
@@ -57,7 +71,8 @@ h2 {
 #live-updates {
     background-color: white;
     border-radius: 0% 100% 0% 100% / 0% 100% 0% 100% ;
-    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin: 20px auto;
 }
 
