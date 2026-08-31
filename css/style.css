@@ -1,3 +1,9 @@
+:root {
+    --font-size-h1: clamp(1rem, 5rem + 1.5vw, 10rem);
+    --font-size-h2: clamp(1rem, 3rem + 1.5vw, 6rem);
+    --font-size-h3: clamp(1rem, 2rem + 1.5vw, 4rem);
+    --font-size-p: clamp(1rem, 1.5rem + 1.5vw, 1.25rem);
+}
 .twinkle-star-regular {
   font-family: "Twinkle Star", cursive;
   font-weight: 400;
@@ -39,18 +45,9 @@ body {
     margin-bottom: 0;
     list-style: none;
 }
-
-.navi {
-    display: inline-block;
-    padding: 1px 5px 2px;
-    margin-bottom: 4px;
-    letter-spacing: 1px;
-    font-family: scatterplot-vf, sans-serif;
-    color:black;
-}
 h1 {
     font-family:'gladly-mailed', cursive;
-    font-size: 2.5em;
+    font-size: 3em;
     margin: 5px auto;
 }
 h2 {
@@ -92,14 +89,12 @@ body {
     justify-content: center;
     align-content: center;
     gap: 20px;
-    border: 2px solid;
-   /* padding-top: 60px; */
     flex-wrap: wrap;
+    margin: 50px;
 }
-@media screen and (max-width: 768px) {
-    #about, #live-updates, #status {
+@media screen and (max-width: 768px) {        /* Media Queries are good for responsive design on smaller/bigger devices */
+#about, #live-updates, #status {
         width: 90%;
         margin: 10px auto;
-        color: rgb(187, 117, 129);
     }
 }
