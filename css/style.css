@@ -90,5 +90,16 @@ footer {
 }
 body {
     justify-content: center;
-    align-items: center;
+    align-content: center;
+    gap: 20px;
+    border: 2px solid;
+   /* padding-top: 60px; */
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+    #about, #live-updates, #status {
+        width: 90%;
+        margin: 10px auto;
+        color: rgb(187, 117, 129);
+    }
 }
