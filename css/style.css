@@ -47,12 +47,12 @@ body {
     align-items: center;
     justify-content: center;
 }
-nav {
+nav, .nav-link {
     --bs-nav-link-padding-x: 1rem;
     --bs-nav-link-padding-y: 0.5rem;
     --bs-nav-link-font-weight: ;
-    --bs-nav-link-color: #d22f85;
-    --bs-nav-link-hover-color: #9e1313;
+    --bs-nav-link-color: #d22f85 !important;
+    --bs-nav-link-hover-color: #9e1313 !important;
     --bs-nav-link-disabled-color: rgb(28 32 36 / 75%);
     font-family: var(--font-body);
     display: flex;
@@ -66,6 +66,7 @@ nav {
     min-height: 44px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 h1 {
     font-family: var(--font-display);
@@ -121,16 +122,35 @@ body {
     margin: 50px;
 }
 button {
+    font-family: var(--font-body);
     color: rgb(175, 98, 111);
     border: 2px solid rgb(175, 98, 111);
     border-radius: 5px;
-    justify-content:center;
+    justify-content: center;
     align-content: center;
+    align-items: center;
     display: flex;
+    min-height: 44px;
+    padding: 0 20px;
+    margin: 20px auto;
 }
-@media screen and (max-width: 768px) {        /* Media Queries are good for responsive design on smaller/bigger devices */
-#about, #live-updates, #status {
-        width: 90%;
-        margin: 10px auto;
+@media screen and (max-width: 480px) {
+    #live-updates {
+        border-radius: 20px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+ 
+    .nav {
+        justify-content: center;
+        gap: 0.5rem 1rem;
+    }
+ 
+    .row {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "about"
+            "live"
+            "status";
     }
 }
