@@ -1,16 +1,24 @@
 :root {
-    --font-size-h1: clamp(1rem, 5rem + 1.5vw, 10rem);
-    --font-size-h2: clamp(1rem, 3rem + 1.5vw, 6rem);
-    --font-size-h3: clamp(1rem, 2rem + 1.5vw, 4rem);
-    --font-size-p: clamp(1rem, 1.5rem + 1.5vw, 1.25rem);
+    --font-body: "fira-sans", sans-serif;
+    --font-display: 'gladly-mailed', cursive;
+    --font-accent: "Twinkle Star", cursive;
+ 
+    --font-size-h1: clamp(2.5rem, 6vw + 1rem, 8rem);
+    --font-size-h2: clamp(1.5rem, 3vw + 1rem, 3rem);
+    --font-size-h3: clamp(1.25rem, 2vw + 1rem, 2rem);
+    --font-size-p: clamp(1rem, 0.5vw + 0.9rem, 1.25rem);
+ 
+    --line-height-heading: 1.1;
+    --line-height-body: 1.6;
 }
+ 
 .twinkle-star-regular {
-  font-family: "Twinkle Star", cursive;
+  font-family: var(--font-accent);
   font-weight: 400;
   font-style: normal;
 }
-.gladly-mailed-regular{
-    font-family: "gladly-mailed", sans-serif;
+.gladly-mailed-regular {
+    font-family: var(--font-display);
     font-weight: 400;
     font-style: normal;
 }
@@ -20,6 +28,13 @@
 }
 body {
     background-color: #e6e6e6;
+    font-family: var(--font-body);
+    line-height: var(--line-height-body);
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: clamp(16px, 4vw, 50px);
 }
 #header {
     height: 60px;
@@ -32,32 +47,45 @@ body {
     align-items: center;
     justify-content: center;
 }
-.nav {
+nav {
     --bs-nav-link-padding-x: 1rem;
     --bs-nav-link-padding-y: 0.5rem;
     --bs-nav-link-font-weight: ;
     --bs-nav-link-color: #d22f85;
     --bs-nav-link-hover-color: #9e1313;
     --bs-nav-link-disabled-color: rgb(28 32 36 / 75%);
+    font-family: var(--font-body);
     display: flex;
     flex-wrap: wrap;
+    row-gap: 0.25rem;
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
 }
+.nav-link {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+}
 h1 {
-    font-family:'gladly-mailed', cursive;
-    font-size: 3em;
+    font-family: var(--font-display);
+    font-size: var(--font-size-h1);
+    line-height: var(--line-height-heading);
     margin: 5px auto;
 }
 h2 {
-    font-family:'Courier New', Courier, monospace;
-    font-size: 2em;
+    font-family: var(--font-body);
+    font-size: var(--font-size-h2);
+    line-height: var(--line-height-heading);
+    font-weight: 600;
 }
-.text {
-    font-family: "fira-sans", sans-serif;
+text, p {
+    font-family: var(--font-body);
+    font-size: var(--font-size-p);
 }
-
+a {
+    font-family: var(--font-body);
+}
 #about {
     background-color: white;
     border-radius: 10px;
