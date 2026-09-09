@@ -79,6 +79,7 @@ h2 {
     font-size: var(--font-size-h2);
     line-height: var(--line-height-heading);
     font-weight: 600;
+    margin-top: 30px;
 }
 text, p {
     font-family: var(--font-body);
@@ -133,6 +134,9 @@ button {
     min-height: 44px;
     padding: 0 20px;
     margin: 20px auto;
+}
+.p-3 p {
+    margin-bottom: 5px;
 }
 @media screen and (max-width: 480px) {
     #live-updates {
