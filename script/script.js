@@ -20,3 +20,9 @@ let courses = ["data vis", "type","architecture","professional", "drawing"]
 for (let i =0; i < 4; i ++){
  console.log(courses[i]) 
 }
+//let quickFix = document.getElementById("live-updates")
+//quickFix.style.backgroundColor = "blue"
+
+document.getElementById("about").innerHTML += "im in this ho"
+// the += adds to the existing text instead of replacing it.
+
