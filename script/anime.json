@@ -1,0 +1,146 @@
+[
+  {
+    "Name": "The Apothecary Diaries",
+    "Genre": "Historical Drama",
+    "Year Released": 2023,
+    "Rating": "4/5"
+  },
+  {
+    "Name": "The Promised Neverland",
+    "Genre": "Dark Fantasy",
+    "Year Released": 2019,
+    "Rating": "3.5/5"
+  },
+  {
+    "Name": "Cowboy Bebop",
+    "Genre": "Sci-Fi, Space Western",
+    "Year Released": 1998,
+    "Rating": "5/5"
+  },
+  {
+    "Name": "Spirited Away",
+    "Genre": "Fantasy, Adventure",
+    "Year Released": 2001,
+    "Rating": "5/5"
+  },
+  {
+    "Name": "Violet Evergarden",
+    "Genre": "Drama",
+    "Year Released": 2018,
+    "Rating": "4/5"
+  },
+  {
+    "Name": "Haikyuu",
+    "Genre": "Sports, Comedy, Drama",
+    "Year Released": 2014,
+    "Rating": "3.5/5"
+  },
+  {
+    "Name": "My Hero Academia",
+    "Genre": "Action, Superhero",
+    "Year Released": 2016,
+    "Rating": "4.5/5"
+  },
+  {
+    "Name": "Demon Slayer",
+    "Genre": "Action, Supernatual, Fantasy",
+    "Year Released": 2019,
+    "Rating": "5/5"
+  },
+  {
+    "Name": "Witch Hat Atelier",
+    "Genre": "Fantasy, Adventure, Drama",
+    "Year Released": 2026,
+    "Rating": "5/5"
+  },
+  {
+    "Name": "Chainsaw Man",
+    "Genre": "Action, Dark Fantasy",
+    "Year Released": 2022,
+    "Rating": "4/5"
+  },
+  {
+    "Name": "Jujutsu Kaisen",
+    "Genre": "Action, Dark Fantasy",
+    "Year Released": 2020,
+    "Rating": "4/5"
+  },
+  {
+    "Name": "Dandadan",
+    "Genre": "Action, Comedy, Supernatural",
+    "Year Released": 2024,
+    "Rating": "3.5/5"
+  },
+  {
+    "Name": "Frieren",
+    "Genre": "Fantasy, Adventure, Drama",
+    "Year Released": 2023,
+    "Rating": "4/5"
+  },
+  {
+    "Name": "Gachiakuta",
+    "Genre": "Action, Fantasy, Adventure",
+    "Year Released": 2025,
+    "Rating": "5/5"
+  },
+  {
+    "Name": "Blue Lock",
+    "Genre": "Sports, Drama, Psychological",
+    "Year Released": 2022,
+    "Rating": "3/5"
+  },
+  {
+    "Name": "Cyberpunk: Edgerunners",
+    "Genre": "Cyberpunk, Action, Sci-fi",
+    "Year Released": 2022,
+    "Rating": "5/5"
+  },
+  {
+    "Name": "Beastars",
+    "Genre": "Drama, Mystery, Slice-of-Life",
+    "Year Released": 2019,
+    "Rating": "3/5"
+  },
+  {
+    "Name": "Hunter x Hunter",
+    "Genre": "Adventure, Action, Fantasy",
+    "Year Released": 2011,
+    "Rating": "5/5"
+  },
+  {
+    "Name": "A Silent Voice",
+    "Genre": "Drama, Romance",
+    "Year Released": 2016,
+    "Rating": "4/5"
+  },
+  {
+    "Name": "Your Lie in April",
+    "Genre": "Drama, Romance, Music",
+    "Year Released": 2014,
+    "Rating": "5/5"
+  },
+  {
+    "Name": "Toradora",
+    "Genre": "Romance, Comedy, Slice of Life",
+    "Year Released": 2008,
+    "Rating": "2/5"
+  },
+  {
+    "Name": "The Great Pretender",
+    "Genre": "Crime, Comedy, Heist",
+    "Year Released": 2020,
+    "Rating": "4/5"
+  },
+  {
+    "Name": "Howl's Moving Castle",
+    "Genre": "Fantasy, Adventure, Romance",
+    "Year Released": 2004,
+    "Rating": "5/5"
+  },
+  {
+    "Name": "Kiznaiver",
+    "Genre": "Drama, Sci-fi, Psychological",
+    "Year Released": 2016,
+    "Rating": "5/5"
+  }
+]
