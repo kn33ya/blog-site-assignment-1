@@ -99,7 +99,20 @@
 
     <section id="anime">   
         <h2>Anime</h2>
-           <div class="p-3 border bg-light">
+           <div id="anime-filters" class="d-flex flex-wrap gap-3 mb-3">
+        <select id="genre-filter" class="form-select w-auto">
+            <option value="all">All Genres</option>
+        </select>
+        <select id="rating-filter" class="form-select w-auto">
+            <option value="all">All Ratings</option>
+        </select>
+        <select id="year-filter" class="form-select w-auto">
+            <option value="all">All Years</option>
+        </select>
+    </div>
+
+    <div id="anime-grid" class="row g-3"></div>
+        <!-- <div class="p-3 border bg-light">
               <h3>The Apothecary Diaries</h3>
               <p>★★★★★</p>
               <p>"maomao is so funny. i love watching her solve mysteries while pretending she doesn't care."</p>
@@ -121,10 +134,9 @@
                 <h3>Jujutsu Kaisen</h3>
                 <p>★★★★☆</p>
                 <p>"the animation is incredible but i am starting to question whether i actually enjoy suffering."</p>
-            </div>
+            </div> -->
     </section>
-
     <a href="index.html"><button> go home</button></a>
-</body>
+    <script src="./script/script.js"></script>
 </body>
 </html>
