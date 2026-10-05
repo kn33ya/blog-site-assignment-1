@@ -159,6 +159,14 @@ button {
 .artwork-wide {
     grid-column: span 2;
 }
+#anime-filters {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+#anime-grid {
+  
+}
 @media screen and (max-width: 480px) {
     #live-updates {
         border-radius: 20px;

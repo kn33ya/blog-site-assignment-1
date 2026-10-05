@@ -45,9 +45,9 @@ function makeGrid(data){
             <div class="anime-card">
                 <h3>${item.Name}</h3>
                 <div class ="anime-card-info">
-                    <p>${item.Genre}</p>
-                    <p>${item['Year Released']}</p>
-                    <p>${item.Rating}</p>
+                    <p><strong>Genre:</strong> ${item.Genre}</p>
+                    <p><strong>Year Released:</strong> ${item['Year Released']}</p>
+                    <p><strong>Rating:</strong> ${item.Rating}</p>
                 </div>
             </div>
         `;
